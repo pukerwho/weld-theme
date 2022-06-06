@@ -9,7 +9,7 @@ if ( ! function_exists( 'treba_wp_setup' ) ) :
 		load_theme_textdomain( 'treba-wp', get_template_directory() . '/languages' );
 
 		add_theme_support( 'automatic-feed-links' );
-		// add_theme_support( 'title-tag' );
+		add_theme_support( 'title-tag' );
 		add_theme_support( 'post-thumbnails' );
 
 		register_nav_menus(
@@ -29,6 +29,7 @@ endif;
 add_action( 'after_setup_theme', 'treba_wp_setup' );
 
 include('inc/enqueues.php');
+include('inc/share-social.php');
 
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;

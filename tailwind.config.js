@@ -26,7 +26,7 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '0 15px',
+      padding: '15px',
     },
     extend: {
       lineHeight: {
@@ -35,6 +35,7 @@ module.exports = {
       },
       colors: {
         'main-dark': '#262627',
+        'primary': '#00b7bd',
       },
       fontSize: {
         // '20xl': '20rem'
