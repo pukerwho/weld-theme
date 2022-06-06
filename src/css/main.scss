@@ -1,5 +1,6 @@
 @import 'mixins';
 @import 'header';
+@import 'footer';
 
 body {
   scroll-behavior: smooth;
@@ -156,45 +157,7 @@ a {
 
 
 
-.footer {
-	background: #0C081B;
-	padding-top: 80px;
-	padding-bottom: 60px;
-	&-logo {
-		img {
-			display: inline-block;
-			height: 40px;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-			margin-bottom: 30px;
-			@include for-md {
-				height: 73px;
-				margin-bottom: 40px;
-			}
-		}
-	}
-	&-social {
-		&__item {
-			margin: 0 8px 17px;
-		}
-		&__link {
-			font-size: 16px;
-			color: #7a939c;
-		}
-	}
-	&-text {
-		font-size: 14px;
-		line-height: 20px;
-		color: #7a939c;
-		margin-bottom: 20px;
-		a {
-			text-decoration: underline;
-			color: inherit;
-		}
-	}
-}
+
 
 .nav-subtitle {
 	font-family: 'Rubik';
@@ -351,6 +314,8 @@ a {
 }
 .share-link {
 	display: inline-block;
+	font-size: 16px;
+	color: #7a939c;
 }
 .share-telegram {
 	width: 18px;

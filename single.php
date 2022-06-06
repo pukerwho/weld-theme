@@ -44,7 +44,7 @@
               <?php if ($avatar): ?>
                 <?php echo $avatar; ?>
               <?php else: ?>
-                <img src="<?php bloginfo('template_part'); ?>/img/user.svg" width="50px">
+                <img src="<?php bloginfo('template_part'); ?>/images/user.png" width="50px">
               <?php endif; ?>
             <?php endif; ?>
           </div>
