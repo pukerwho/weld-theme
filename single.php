@@ -1,13 +1,14 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<div class="hidden postID"><?php echo get_the_ID(); ?></div>
 <div class="post-item__top relative mb-12">
   <div class="h-full">
     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover">
     <div class="w-full h-full absolute left-0 top-0 bg-gradient-to-b from-transparent to-black/75"></div>
   </div>
   <div class="container relative">
-    <div class="w-full lg:w-8/12 absolute left-0 right-0 bottom-12 mx-auto">
+    <div class="w-full lg:w-8/12 absolute left-0 right-0 bottom-12 mx-auto px-6 xl:px-0">
       <h1 class="post-item__title"><?php the_title(); ?></h1>
       <div class="post-item__author-top">by <?php echo get_the_author(); ?></div>
     </div>
@@ -20,7 +21,7 @@
       <div class="flex items-center post-card__meta -mx-1 mb-12">
         <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
         <div class="px-1">·</div>
-        <div class="px-1">4 min read</div>
+        <div class="post-time-read px-1"><span></span> min read</div>
       </div>
       <div class="content border-b pb-12 mb-12"><?php the_content(); ?></div>
       
@@ -44,7 +45,7 @@
               <?php if ($avatar): ?>
                 <?php echo $avatar; ?>
               <?php else: ?>
-                <img src="<?php bloginfo('template_part'); ?>/images/user.png" width="50px">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/user.png" width="50px">
               <?php endif; ?>
             <?php endif; ?>
           </div>

@@ -123,3 +123,14 @@ function myplugin_ajaxurl() {
     var ajaxurl = "' . admin_url('admin-ajax.php') . '";
   </script>';
 }
+
+//Update TimeToRead 
+function update_time_read( ) {
+  //Get data
+  $post_id = stripslashes_deep($_POST['post_id']);
+  $time_var = stripslashes_deep($_POST['time_var']);
+  update_post_meta( $post_id, 'post_time_read', $time_var );
+  wp_die();
+}
+add_action( 'wp_ajax_nopriv_update_time_read_action', 'update_time_read' );
+add_action( 'wp_ajax_update_time_read_action', 'update_time_read' );
