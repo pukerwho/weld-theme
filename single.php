@@ -2,7 +2,7 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <div class="hidden postID"><?php echo get_the_ID(); ?></div>
-<div class="post-item__top relative mb-12">
+<div class="post-item__top relative mb-6 xl:mb-12">
   <div class="h-full">
     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="w-full h-full object-cover">
     <div class="w-full h-full absolute left-0 top-0 bg-gradient-to-b from-transparent to-black/75"></div>
@@ -18,7 +18,7 @@
 <div class="post-item__content mb-20 xl:mb-32">
   <div class="container">
     <div class="w-full lg:w-8/12 mx-auto">
-      <div class="flex items-center post-card__meta -mx-1 mb-12">
+      <div class="flex items-center post-card__meta -mx-1 mb-6 xl:mb-12">
         <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
         <div class="px-1">·</div>
         <div class="post-time-read px-1"><span></span> <?php _e('min read', 'treba-wp'); ?></div>

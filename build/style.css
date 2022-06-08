@@ -325,6 +325,12 @@ a:hover {
   width: 117px;
   height: 117px;
 }
+
+.post-card__thumb img {
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 1200px) {
   .post-card__thumb {
     min-width: 256px;

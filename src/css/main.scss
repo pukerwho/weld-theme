@@ -102,6 +102,10 @@ a {
 		max-height: 117px;
 		width: 117px;
 		height: 117px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
 		@include for-xl {
 			min-width: 256px;
 			max-height: 256px;
