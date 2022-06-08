@@ -1,0 +1,53 @@
+.lang {
+  .icon-earth {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .icon-arrow-down {
+    font-size: 8px;
+    margin-left: 5px;
+  }
+  &-current {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+  }
+  &-list {
+    display: none;
+    min-width: 63px;
+    position: absolute;
+    top: 35px; right: 0; left: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px rgb(194 193 193 / 50%);
+    box-shadow: 0 3px 10px rgb(194 193 193 / 50%);
+    border-radius: 5px;
+    padding: 15px;
+    &.open {
+      display: flex;
+      flex-direction: column;
+    }
+    @include for-xl {
+      left: 0;
+      right: auto;
+    }
+  }
+  &-item {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: .4px;
+    color: #7a939c;
+    margin-right: 0 !important;
+    margin-bottom: 15px !important;
+    &:last-of-type {
+      margin-bottom: 0 !important;
+    }
+    &.current-lang {
+      color: #00b7bd;
+    }
+  }
+}

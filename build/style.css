@@ -163,6 +163,65 @@
   letter-spacing: 0.4px;
   touch-action: manipulation;
 }
+.modal .header-logo {
+  margin-right: 0;
+}
+
+.lang .icon-earth {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.lang .icon-arrow-down {
+  font-size: 8px;
+  margin-left: 5px;
+}
+.lang-current {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.lang-list {
+  display: none;
+  min-width: 63px;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  left: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(194, 193, 193, 0.5);
+  box-shadow: 0 3px 10px rgba(194, 193, 193, 0.5);
+  border-radius: 5px;
+  padding: 15px;
+}
+.lang-list.open {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .lang-list {
+    left: 0;
+    right: auto;
+  }
+}
+.lang-item {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #7a939c;
+  margin-right: 0 !important;
+  margin-bottom: 15px !important;
+}
+.lang-item:last-of-type {
+  margin-bottom: 0 !important;
+}
+.lang-item.current-lang {
+  color: #00b7bd;
+}
 
 body {
   scroll-behavior: smooth;

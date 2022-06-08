@@ -1,4 +1,3 @@
-
 function updateMeta(timetoread) {
   let postid = document.querySelector('.postID').innerText;
   jQuery.ajax({

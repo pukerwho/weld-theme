@@ -46,6 +46,9 @@
         <div class="header-section flex items-center">
           <a href="https://weld.money/sign-in"><?php _e('Sign in', 'treba-wp'); ?></a>
           <a href="https://weld.money/getcard/" target="_blank" class="cardBtn hidden xl:inline-block"><span><?php _e('Get Card', 'treba-wp'); ?></span></a>
+          <div class="hidden xl:block ml-8">
+            <?php get_template_part('template-parts/components/lang'); ?>
+          </div>
         </div>
       </div>
     </div>

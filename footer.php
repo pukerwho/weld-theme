@@ -38,8 +38,8 @@
               <img class="header-logo-img" alt="Weld" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_full_110_40.svg">
             </picture>
           </div>
-          <div class="hidden">
-            Перевод
+          <div class="text-white">
+            <?php get_template_part('template-parts/components/lang'); ?>
           </div>
         </div>
         <div class="modal-menu">

@@ -545,6 +545,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.bottom-12 {
+  bottom: 3rem;
+}
+
 .left-8 {
   left: 2rem;
 }
@@ -553,16 +561,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 2rem;
 }
 
-.bottom-12 {
-  bottom: 3rem;
-}
-
 .bottom-8 {
   bottom: 2rem;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .z-10 {
@@ -588,13 +588,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: -0.5rem;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mb-12 {
@@ -684,6 +683,10 @@ Ensure the default browser behavior of the `hidden` attribute.
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .resize {
   resize: both;
 }
@@ -765,6 +768,11 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -783,16 +791,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .pt-\[20px\] {
@@ -814,11 +812,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .uppercase {
@@ -876,11 +869,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .lg\:hidden {
     display: none;
   }
@@ -915,14 +903,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1200px) {
-  .xl\:left-0 {
-    left: 0px;
-  }
-
-  .xl\:right-0 {
-    right: 0px;
-  }
-
   .xl\:mb-0 {
     margin-bottom: 0px;
   }
@@ -948,6 +928,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .xl\:inline-flex {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 
   .xl\:w-11\/12 {
@@ -981,16 +968,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .xl\:text-4xl {
