@@ -1,0 +1,33 @@
+"Project-Id-Version: weld\n"
+"POT-Creation-Date: 2021-02-16 20:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: weld\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "New post"
+msgstr "Новий пост"
+
+msgid "Related posts"
+msgstr "Схожі публікаціі"
+
+msgid "Latest posts"
+msgstr "Останні дописи"
+
+msgid "Get Card"
+msgstr "Отримати картку"
+
+msgid "Sign in"
+msgstr "Увійти"
+
+msgid "min read"
+msgstr "хв читання"

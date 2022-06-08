@@ -21,7 +21,7 @@
       <div class="flex items-center post-card__meta -mx-1 mb-12">
         <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
         <div class="px-1">·</div>
-        <div class="post-time-read px-1"><span></span> min read</div>
+        <div class="post-time-read px-1"><span></span> <?php _e('min read', 'treba-wp'); ?></div>
       </div>
       <div class="content border-b pb-12 mb-12"><?php the_content(); ?></div>
       

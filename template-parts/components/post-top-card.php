@@ -9,7 +9,7 @@
   <div class="flex items-center post-card__meta -mx-1 mb-4">
     <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
     <div class="px-1">·</div>
-    <div class="px-1"><span><?php $current_id = get_the_ID(); echo get_post_meta( $current_id, 'post_time_read', true ); ?></span> min read</div>
+    <div class="px-1"><span><?php $current_id = get_the_ID(); echo get_post_meta( $current_id, 'post_time_read', true ); ?></span> <?php _e('min read', 'treba-wp'); ?></div>
   </div>
   <div class="post-card__description">
     <?php $content_text = wp_strip_all_tags( get_the_content() );
