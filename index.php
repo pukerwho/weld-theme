@@ -4,7 +4,7 @@
   <div class="w-full xl:w-11/12">
     <!-- TOP POST -->
     <div class="flex flex-wrap flex-col xl:flex-row border-b mb-12 pb-12 md:pt-12 xl:pt-16">
-      <div class="w-full xl:w-2/12 md:mb-5 xl:mb-0">
+      <div class="w-full xl:w-2/12 mb-5 xl:mb-0">
         <div class="nav-subtitle"><?php _e('New post', 'treba-wp'); ?></div>
       </div>
       <div class="w-full xl:w-9/12">
@@ -25,7 +25,7 @@
 
     <!-- LATEST POSTS -->
     <div class="flex flex-wrap flex-col xl:flex-row">
-      <div class="w-full xl:w-2/12">
+      <div class="w-full xl:w-2/12 mb-5 xl:mb-0">
         <div class="nav-subtitle"><?php _e('Latest posts', 'treba-wp'); ?></div>
       </div>
       <div class="w-full xl:w-10/12">

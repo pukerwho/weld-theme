@@ -339,9 +339,15 @@ a:hover {
 .post-card__meta {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
   color: #7A939C;
+}
+@media (min-width: 1024px) {
+  .post-card__meta {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
 
 .post-card__title {

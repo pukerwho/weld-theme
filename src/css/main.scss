@@ -113,9 +113,13 @@ a {
 	&__meta {
 		font-style: normal;
 		font-weight: 400;
-		font-size: 18px;
+		font-size: 14px;
 		line-height: 27px;
 		color: #7A939C;
+		@include for-lg {
+			font-size: 18px;
+			line-height: 27px;
+		}
 	}
 	&__title {
 		font-weight: 500;

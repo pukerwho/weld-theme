@@ -15,7 +15,7 @@
   </div>
 </div>
 
-<div class="post-item__content mb-32">
+<div class="post-item__content mb-20 xl:mb-32">
   <div class="container">
     <div class="w-full lg:w-8/12 mx-auto">
       <div class="flex items-center post-card__meta -mx-1 mb-12">
@@ -71,7 +71,7 @@
   <div class="w-full lg:w-11/12">
     <!-- RELATED POSTS -->
     <div class="flex flex-wrap flex-col lg:flex-row">
-      <div class="w-full lg:w-2/12">
+      <div class="w-full lg:w-2/12 mb-5 xl:mb-0">
         <div class="nav-subtitle"><?php _e('Related posts', 'treba-wp'); ?></div>
       </div>
       <div class="w-full lg:w-9/12">

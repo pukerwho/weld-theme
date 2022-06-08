@@ -3,7 +3,7 @@
     <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="aspect-square object-cover">
   </div>
   <div class="">
-    <div class="post-card__title mb-5"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+    <div class="post-card__title xl:mb-5"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
     <div class="flex items-center post-card__meta -mx-1 mb-8">
       <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
       <div class="px-1">·</div>
