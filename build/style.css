@@ -321,12 +321,14 @@ a:hover {
 /* POST CARD */
 .post-card__thumb {
   min-width: 117px;
+  max-height: 117px;
   width: 117px;
   height: 117px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .post-card__thumb {
     min-width: 256px;
+    max-height: 256px;
     width: 256px;
     height: 256px;
   }

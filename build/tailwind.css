@@ -604,8 +604,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mr-4 {
@@ -622,10 +622,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -911,6 +907,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2.5rem;
   }
 
+  .xl\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
   .xl\:mr-8 {
     margin-right: 2rem;
   }
@@ -919,8 +919,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 1.25rem;
   }
 
-  .xl\:mb-32 {
-    margin-bottom: 8rem;
+  .xl\:mb-8 {
+    margin-bottom: 2rem;
   }
 
   .xl\:block {

@@ -99,10 +99,12 @@ a {
 .post-card {
 	&__thumb {
 		min-width: 117px;
+		max-height: 117px;
 		width: 117px;
 		height: 117px;
-		@include for-lg {
+		@include for-xl {
 			min-width: 256px;
+			max-height: 256px;
 			width: 256px;
 			height: 256px;
 		}

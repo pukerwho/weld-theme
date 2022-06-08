@@ -4,7 +4,7 @@
   </div>
   <div class="">
     <div class="post-card__title xl:mb-5"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-    <div class="flex items-center post-card__meta -mx-1 mb-8">
+    <div class="flex items-center post-card__meta -mx-1 xl:mb-8">
       <div class="px-1"><?php echo get_the_date('d.m.Y'); ?></div>
       <div class="px-1">·</div>
       <div class="time-to-read px-1"><span><?php $current_id = get_the_ID(); echo get_post_meta( $current_id, 'post_time_read', true ); ?></span> <?php _e('min read', 'treba-wp'); ?></div>
