@@ -12,7 +12,7 @@
           $query = new WP_Query( array( 
             'post_type' => 'post', 
             'posts_per_page' => 1,
-            'order'    => 'ASC',
+            'order'    => 'desc',
           ) );
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
           <div class="w-full">
@@ -34,7 +34,7 @@
             'post_type' => 'post', 
             'posts_per_page' => 5,
             'offset' => 1,
-            'order'    => 'ASC',
+            'order'    => 'desc',
           ) );
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
           <div class="w-full mb-8 xl:mb-10">
