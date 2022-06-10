@@ -470,6 +470,18 @@ a:hover {
   line-height: 38px;
 }
 
+.post-item__content a {
+  color: #7a939c;
+  text-decoration: underline;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.post-item__content a:hover {
+  color: #00b7bd;
+  text-decoration: none;
+}
+
 .post-item__content h2 {
   font-weight: 500;
   font-size: 20px;
@@ -483,7 +495,7 @@ a:hover {
 }
 
 .post-item__content ol li {
-  list-style-type: auto;
+  list-style-type: auto !important;
 }
 
 .post-item__content p, .post-item__content li:not(.share-item) {

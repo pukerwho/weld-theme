@@ -216,6 +216,15 @@ a {
 				line-height: 38px;
 			}
 		}
+		a {
+			color: #7a939c;
+			text-decoration: underline;
+			transition: all 0.25s;
+			&:hover {
+				color: #00b7bd;
+				text-decoration: none;
+			}
+		}
 		h2 {
 			font-weight: 500;
 			font-size: 20px;
@@ -228,7 +237,7 @@ a {
 		}
 		ol {
 			li {
-				list-style-type: auto;
+				list-style-type: auto !important;
 			}
 		}
 		p, li:not(.share-item) {
