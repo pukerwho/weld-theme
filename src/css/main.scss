@@ -216,7 +216,7 @@ a {
 				line-height: 38px;
 			}
 		}
-		a {
+		a:not(.share-link) {
 			color: #7a939c;
 			text-decoration: underline;
 			transition: all 0.25s;

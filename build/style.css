@@ -470,14 +470,14 @@ a:hover {
   line-height: 38px;
 }
 
-.post-item__content a {
+.post-item__content a:not(.share-link) {
   color: #7a939c;
   text-decoration: underline;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
 
-.post-item__content a:hover {
+.post-item__content a:not(.share-link):hover {
   color: #00b7bd;
   text-decoration: none;
 }
