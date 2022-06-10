@@ -226,6 +226,11 @@ a {
 			margin-left: 30px;
 			margin-bottom: 30px;
 		}
+		ol {
+			li {
+				list-style-type: auto;
+			}
+		}
 		p, li:not(.share-item) {
 			font-weight: 400;
 			font-size: 18px;

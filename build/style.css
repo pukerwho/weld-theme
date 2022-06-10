@@ -482,6 +482,10 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.post-item__content ol li {
+  list-style-type: auto;
+}
+
 .post-item__content p, .post-item__content li:not(.share-item) {
   font-weight: 400;
   font-size: 18px;
