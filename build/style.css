@@ -477,7 +477,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.post-item__content ul:not(.share-group) {
+.post-item__content ol, .post-item__content ul:not(.share-group) {
   margin-left: 30px;
   margin-bottom: 30px;
 }
