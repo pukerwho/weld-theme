@@ -2,7 +2,7 @@
   <div class="container">
     <div class="flex flex-wrap flex-col items-center">
       <div class="footer-logo">
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_full_110_40.svg" alt="Logo"></a>
+        <a href="https://weld.money"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_full_110_40.svg" alt="Logo"></a>
       </div>
       <div class="footer-social mb-8">
         <?php get_template_part('template-parts/components/footer-social'); ?>
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="header-logo relative">
-            <a href="<?php echo get_home_url(); ?>" class="absolute-link"></a>
+            <a href="https://weld.money" class="absolute-link"></a>
             <picture>
               <img class="header-logo-img" alt="Weld" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_full_110_40.svg">
             </picture>

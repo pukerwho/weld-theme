@@ -29,7 +29,7 @@
             <span class="hidden">Menu</span>
           </div>
           <div class="header-logo relative">
-            <a href="<?php echo get_home_url(); ?>" class="absolute-link"></a>
+            <a href="https://weld.money" class="absolute-link"></a>
             <picture>
               <source media="(min-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_full_110_40.svg">
               <source media="(max-width: 767px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_circle_40_40.svg">
