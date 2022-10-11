@@ -80,7 +80,7 @@
           $query = new WP_Query( array( 
             'post_type' => 'post', 
             'posts_per_page' => 5,
-            'order'    => 'ASC',
+            'order'    => 'desc',
             'post__not_in' => array($current_id),
           ) );
         if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
